@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useTheme } from './themecontext';
+import SignUpPage from './signup';
+import ForgotPasswordPage from './forgetpass';
+
 
 const Container = styled.div`
   display: flex;
@@ -141,8 +144,8 @@ function LoginPage() {
           <Button theme={theme} type="submit">{t('login')}</Button>
         </Form>
         <LinkContainer>
-          <StyledLink theme={theme} onClick={() => navigate('/signup')}>{t('signup_link')}</StyledLink>
-          <StyledLink theme={theme} onClick={() => navigate('/forgot-password')}>{t('forgot_password_link')}</StyledLink>
+          <StyledLink theme={theme} onClick={() => navigate('/signup.js')}>{t('SignUpPage')}</StyledLink>
+          <StyledLink theme={theme} onClick={() => navigate('/forgetpass.js')}>{t('ForgotPasswordPage')}</StyledLink>
         </LinkContainer>
       </Card>
     </Container>

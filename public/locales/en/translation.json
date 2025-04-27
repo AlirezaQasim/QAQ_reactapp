@@ -2,5 +2,14 @@
     "welcome": "Welcome to the Software Engineering Master Exam App!",
     "login_signup": "Sign In / Login",
     "about_us": "About Us",
-    "about_us_text": "This app is designed to provide comprehensive notes and questions for the Master's degree in Software Engineering exam. We strive to provide you with the best educational resources and tools to help you succeed."
+    "about_us_text": "This app is designed to provide comprehensive notes and questions for the Master's degree in Software Engineering exam. We strive to provide you with the best educational resources and tools to help you succeed.",
+    "forgot_password_title": "Forgot Your Password?",
+    "email_placeholder": "Your Email",
+    "reset_password_button": "Reset Password",
+    "back_to_login": "Back to Login",
+    "sign_up_title": "Create Account",
+    "username_placeholder": "Username",
+    "password_placeholder": "Password",
+    "sign_up_button": "Sign Up",
+    "already_have_account": "Already have an account? Login here"
 }
