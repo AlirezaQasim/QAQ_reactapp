@@ -13,8 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<LanguageSelection />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="./forgetpass.js" element={<ForgotPasswordPage />} />
-          <Route path="./signup.js" element={<SignUpPage />} />
+          <Route path="/forgetpass.js" element={<ForgotPasswordPage />} />
+          <Route path="/signup.js" element={<SignUpPage />} />
           {/* ... سایر روت‌ها */}
         </Routes>
       </ThemeProvider>

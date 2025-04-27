@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useTheme } from './themecontext';
-import SignUpPage from './signup';
-import ForgotPasswordPage from './forgetpass';
+
 
 
 const Container = styled.div`
